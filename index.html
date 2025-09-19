@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Font Hosting Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/fonts.css">
+  <!-- Preload only what you use above-the-fold -->
+  <link rel="preload" href="./webfonts/TTOctosquaresTrl-Rg.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    :root { --pad: 2rem; }
+    body { font-family: 'TT Octosquares Trl', system-ui, sans-serif; line-height: 1.55; padding: var(--pad); }
+    h1,h2 { font-weight: 700; }
+    .alt { font-family: 'Magz', system-ui, sans-serif; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>TT Octosquares Trl — Bold</h1>
+  <div class="card">
+    <p style="font-weight:700;">Sphinx of black quartz, judge my vow.</p>
+  </div>
+
+  <h2>TT Octosquares Trl — Regular</h2>
+  <div class="card">
+    <p style="font-weight:400;">Pack my box with five dozen liquor jugs.</p>
+  </div>
+
+  <h2>Magz — Regular</h2>
+  <div class="card alt">
+    <p>How vexingly quick daft zebras jump.</p>
+  </div>
+
+  <p>Open <code>css/fonts.css</code> to see the @font-face rules and adjust weights/styles as needed.</p>
+</body>
+</html>
