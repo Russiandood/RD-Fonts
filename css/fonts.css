@@ -1,18 +1,26 @@
-@font-face{
+@font-face {
   font-family: 'Magz';
-  src: url('https://russiandood.github.io/RD-Fonts/webfonts/Magz.woff2') format('woff2'),
-       url('https://russiandood.github.io/RD-Fonts/webfonts/Magz.woff') format('woff');
-  font-weight: 400; font-style: normal; font-display: swap;
+  src: url('../webfonts/Magz.woff2') format('woff2'),
+       url('../webfonts/Magz.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
+
+@font-face {
   font-family: 'TT Octosquares Trl';
-  src: url('https://russiandood.github.io/RD-Fonts/webfonts/TTOctosquaresTrl-Rg.woff2') format('woff2'),
-       url('https://russiandood.github.io/RD-Fonts/webfonts/TTOctosquaresTrl-Rg.woff') format('woff');
-  font-weight: 400; font-style: normal; font-display: swap;
+  src: url('../webfonts/TTOctosquaresTrl-Rg.woff2') format('woff2'),
+       url('../webfonts/TTOctosquaresTrl-Rg.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family: 'TT Octosquares Trl BOLD';
-  src: url('https://russiandood.github.io/RD-Fonts/webfonts/TTOctosquaresTrl-Bd.woff2') format('woff2'),
-       url('https://russiandood.github.io/RD-Fonts/webfonts/TTOctosquaresTrl-Bd.woff') format('woff');
-  font-weight: 700; font-style: normal; font-display: swap;
+
+@font-face {
+  font-family: 'TT Octosquares Trl';
+  src: url('../webfonts/TTOctosquaresTrl-Bd.woff2') format('woff2'),
+       url('../webfonts/TTOctosquaresTrl-Bd.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
