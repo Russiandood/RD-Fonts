@@ -40,3 +40,8 @@ body { font-family: 'TT Octosquares Trl', system-ui, sans-serif; }
 
 ## Licensing
 Ensure your font license allows public web hosting and redistribution. If it does not, keep the repo private and avoid GitHub Pages/CDNs.
+
+## IPAex Mincho
+- File: `fonts/ipaex-mincho/regular/ipaexm.ttf`
+- License: IPA Font License (see LICENSE-IPA.txt)
+- Source: IPA (Information-technology Promotion Agency, Japan)
