@@ -27,7 +27,8 @@
 
 @font-face {
   font-family: "IPAex Mincho";
-  src: url("https://russiandood.github.io/RD-Fonts/fonts/ipaex-mincho/regular/ipaexm.ttf") format("truetype");
+  src: url("/RD-Fonts/fonts/ipaex-mincho/regular/ipaexm.woff2") format("woff2"),
+       url("/RD-Fonts/fonts/ipaex-mincho/regular/ipaexm.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
